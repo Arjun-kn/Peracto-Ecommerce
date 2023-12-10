@@ -1,24 +1,39 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Layout from './component/Layout';
+import Login from './pages/Login/Login';
+import Category from './pages/Main/Category/Category';
+import Main from './pages/Main/Main';
+import {Routes,Route} from 'react-router-dom'
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css'
+import Profile from './pages/Profile/Profile';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <ToastContainer/>
+    <Routes>
+    <Route path="/home" element={<Layout>
+      <Main/>
+      </Layout>}/>
+
+      <Route path="/category/:categoryValue" element={<Layout>
+        <Category/>
+        </Layout>}/>
+
+        <Route path="/profile" element={<Layout>
+          <Profile/>
+          </Layout>}/>
+
+        
+
+        <Route path="/" element={<Login/>} />
+    
+    </Routes>
+ 
+
+    </>
   );
 }
 

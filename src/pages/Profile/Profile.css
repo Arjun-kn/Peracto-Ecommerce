@@ -1,0 +1,27 @@
+.profile{
+
+   padding-top: 200px;
+}
+
+.user-pr{
+    padding: 10px;
+    margin-left: 500px;
+    width: 30%;
+    height:400px;
+   
+}
+
+.user-pr p{
+    padding-left: 40px;
+    margin-top: 20px;
+}
+
+@media (max-width:600px){
+    .user-pr{
+        padding: 10px;
+        margin-left: 100px;
+        width: 70%;
+        height:400px;
+       
+    }
+}

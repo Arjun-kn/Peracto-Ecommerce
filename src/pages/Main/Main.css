@@ -1,0 +1,40 @@
+.main{
+    padding-left: 260px;
+    overflow-x: hidden;
+    
+   
+}
+
+
+
+.card-image{
+    height: 200px;
+    object-fit: contain;
+    
+}
+
+.main .card-top-margin{
+    margin-top: 50px;
+}
+
+.main .page{
+    margin-top: 50px;
+    margin-bottom: 180px;
+    padding-left: 400px;
+    
+
+}
+
+.main .page button{
+    width:60px;
+}
+
+@media (max-width:600px){
+    .main{
+        padding-left: 110px;
+    }
+
+    .main .page{
+        padding-left: 30px;
+    }
+}

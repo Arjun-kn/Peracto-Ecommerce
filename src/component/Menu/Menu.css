@@ -1,0 +1,57 @@
+.menu{
+width:200px;
+height:100vh;
+background-color: #1e1e2c;
+margin-top: 60px;
+position: fixed;
+z-index: 0.8;
+color: white;
+}
+
+.menu .icons span{
+    padding-left: 10px;
+}
+
+.menu .icons:hover{
+    border-bottom: 1px solid orange;
+    cursor: pointer;
+  
+    
+   
+}
+
+
+.menu .exicon{
+    padding-top: 30px;
+    padding-left: 18px;
+   
+}
+
+.exicon:last-child{
+    padding-top: 48px;
+}
+
+@media (max-width:600px){
+
+    .menu{
+        width:80px;
+    }
+    .menu .icons span{
+        display: none;
+    }
+
+    .dropdown-menu{
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .menu .icons:hover{
+        border:none
+      
+        
+       
+    }
+    .menu .icons:hover{
+        color: orange;
+    }
+}
