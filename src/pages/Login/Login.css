@@ -1,73 +1,75 @@
-
-.log-body{
-    background-color: #FF3CAC;
-background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
-height:100vh;
-overflow: hidden;
+.log-body {
+  background-color: #ff3cac;
+  background-image: linear-gradient(
+    225deg,
+    #ff3cac 0%,
+    #784ba0 50%,
+    #2b86c5 100%
+  );
+  height: 100vh;
+  overflow: hidden;
 }
-.login-form{
-    width:400px;
-    height:500px;
-    border:none;
-    border-radius: 10px;
-   
-    margin:150px auto 0 auto;
-    vertical-align: middle;
-    padding: 12px;
-    background-color:white;
-    
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
+.login-form {
+  width: 400px;
+  height: 500px;
+  border: none;
+  border-radius: 10px;
 
-.login-form button{
-    margin-left: 120px;
-    margin-top: 10px;
-}
+  margin: 150px auto 0 auto;
+  vertical-align: middle;
+  padding: 12px;
+  background-color: white;
 
-.login-form h1{
-   border-bottom: 1px solid black;
-    font-family: 'Lato', sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-  
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.brand-logo{
-    width:180px;
-    height: 120px;
-    border: 1px solid black;
-    border-top-left-radius: 30px;
-    background-color: orange;
-    border-color: orange;
-    border-bottom-right-radius: 30px;
-    margin-bottom: 5px;
-    padding-bottom: 10px;
-    margin: 3px auto 3px auto;
+.login-form button {
+  margin-left: 120px;
+  margin-top: 10px;
 }
 
- .brand-logo img{
-    width:100%;
-    border-top-left-radius: 50px;
-    border-bottom-right-radius: 300px;
-    height:120px;
-    object-fit: contain;
-    padding-bottom: 10px;
+.login-form h1 {
+  border-bottom: 1px solid black;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
 }
 
-.eye{
-    position: absolute;
-    top:445px;
-    right: 600px;
-    cursor: pointer;
+.brand-logo {
+  width: 180px;
+  height: 120px;
+  border: 1px solid black;
+  border-top-left-radius: 30px;
+  background-color: orange;
+  border-color: orange;
+  border-bottom-right-radius: 30px;
+  margin-bottom: 5px;
+  padding-bottom: 10px;
+  margin: 3px auto 3px auto;
 }
 
-@media (max-width:600px){
-    .eye{
-        top:400px;
-        right:50px;
-    }
-    .login-form{
+.brand-logo img {
+  width: 100%;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 300px;
+  height: 120px;
+  object-fit: contain;
+  padding-bottom: 10px;
+}
 
-        margin:100px auto 0 auto;
-    }
+.eye {
+  position: absolute;
+  top: 445px;
+  right: 600px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .eye {
+    top: 400px;
+    right: 50px;
+  }
+  .login-form {
+    margin: 100px auto 0 auto;
+  }
 }
